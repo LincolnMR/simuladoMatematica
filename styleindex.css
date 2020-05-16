@@ -1,0 +1,145 @@
+*{
+	margin:0;
+	border:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+
+	font-family: "Nunito", arial, helvetica, sans-serif;
+	font-size: 20px;
+	background-image: url("fundo1.jpg");
+	background-repeat: repeat;
+}
+    
+img{
+
+    display: block;
+    max-width: 100%;
+}
+
+aside{
+
+	height: 30px;
+	width: 420px;
+	background-image: repeating-linear-gradient(#ff9a3b, rgb(255, 197, 8), #FFFF00);
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+header {
+
+	max-height: auto;
+	max-width: auto;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 5%;
+	background-image: repeating-linear-gradient(#ff9a3b, rgb(255, 197, 8), #FFFF00);	
+	border-radius: 20px 40px;	
+}
+
+#titulo{
+
+	font-size: 55px;
+	font-family: 'Concert One', cursive;
+	text-align: center;
+}
+
+section{
+
+	max-height: auto;
+	max-width: auto;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	border:1px solid black;
+	border-radius: 20px;
+	background-image: repeating-linear-gradient(#ff9a3b, rgb(255, 197, 8), #FFFF00);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#contas h1{
+
+	padding: 10px;
+}
+
+section div, section p{
+
+	margin: 20px;
+}
+
+
+footer{
+
+	height: 110px;
+	max-width: auto;
+	background:#ff9a3b;
+	color: black;
+	bottom: 0;
+	background-image: radial-gradient(#ff9a3b, rgb(250, 142, 0)); 
+}
+.sobre{
+
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: auto;
+}
+
+.sobre h1, .sobre p{
+
+	padding-left: 60px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.sobre a{
+
+	text-decoration: none;
+	color: black;
+}
+
+.bIniciar {
+
+	background-color: #ff1b8d;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:28px;
+	-moz-border-radius-topright:28px;
+	border-top-right-radius:28px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:28px;
+	-moz-border-radius-bottomleft:28px;
+	border-bottom-left-radius:28px;
+	text-indent:0;
+	display:inline-block;
+	color:#ffffff;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:48px;
+	line-height:48px;
+	width:200px;
+	text-decoration:none;
+	text-align:center;
+}.bIniciar:hover {
+	background-color:#2cff37;
+}.bIniciar:active {
+	position:relative;
+	top:1px;
+}
+
+.botoes {
+
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+}
